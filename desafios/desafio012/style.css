@@ -70,6 +70,7 @@ section.normal {
     color: black;
     background-image: url(imagens/parede.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
