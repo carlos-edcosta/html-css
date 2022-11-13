@@ -56,17 +56,20 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
-    font-size: 3.5vw;
+    padding-left: 10vw;
+    font-size: 3vh;
 }
 
 section > p {
     padding-bottom: 2em;
+
 }
 
 section.normal {
     background-color: white;
     color: black;
+    background-image: url(imagens/parede.jpg);
+    background-size: cover;
 
 }
 
