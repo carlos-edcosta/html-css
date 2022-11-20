@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            display: block;
+            margin: auto;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 410px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error in voluptatibus dignissimos tempora sed libero. Animi perspiciatis iusto quae, corporis temporibus recusandae blanditiis, ipsam aperiam maxime nam impedit eligendi voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quibusdam repellendus animi at minus architecto perspiciatis, in ipsum possimus eligendi, aliquid iusto quisquam quaerat unde facere aperiam delectus ducimus esse.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur quae dolorum dolore, voluptatibus natus ipsam, non sed earum, in quo nisi assumenda aliquid laborum optio quasi! Unde reprehenderit ipsam sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptate, provident beatae nostrum soluta eaque, quo deserunt enim explicabo doloremque laborum cupiditate nobis odio minus, nemo voluptatem autem at sunt.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha um das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dignissimos ducimus ipsam iste quae illo voluptas hic vero, provident nisi vitae reiciendis consequuntur dolor quibusdam cum repudiandae maxime odio quasi.</p> <img src='imagem/cursoemvideo.png'>" >
+        <p>Infelimente, seu navegado não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam excepturi possimus voluptates voluptatum amet libero dolorem rerum neque. At vel, facilis iure distinctio eius voluptate nesciunt sapiente tempore officia nostrum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam voluptate fuga nostrum facilis in aliquid, vitae ipsam ut sunt aspernatur esse perspiciatis explicabo dolorem qui laudantium labore fugiat est rem!</p>
+</body>
+</html>
