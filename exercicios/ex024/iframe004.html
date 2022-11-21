@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        iframe {
+            height: 150px;
+            width: 400px;
+            display: block;
+            margin: auto;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam magni accusantium ad rem deserunt fugiat minima nam deleniti, eaque quas facilis sequi dolore. Corrupti illo totam facilis a facere.</p>
+    <iframe src="paginas-extras/pagina004.html"  sandbox="sandbox" referrerpolicy="no-referrer"> <!--Não vai capturar dados do cliente.-->
+        <p>Seu navegador não é compatível com isso</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci dicta, sapiente sit esse quasi, ducimus, quas laudantium cum veniam ullam numquam quam! Illo modi quasi aut officia, accusamus enim.</p>
+
+    <!--
+        SANDBOX:
+            sandbox = segurança maxima
+            allow-same-origin = permitir conteudos da mesma origem
+            allow-forms = permitindo o uso de formulario
+            allow-scripts = permissão ao uso de scripts
+    -->
+</body>
+</html>
