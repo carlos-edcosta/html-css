@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1> 
+    <!--
+        Method:
+
+        GET:Solicitações não sensiveis (nome, sobrenome, peso)
+            Maximo de 3000bytes (aproximadamente 3000 letras)
+            Não utilizar GET: Senhas, envios de fotos/arquivos
+
+        POST:Solicitações sensiveis (senhas, numeros de cartões, endereços e etc)
+            Mais de 3000bytes
+            Se quiser enviar arquivos/fotos
+    -->
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--autocomplete: para desligar o historico-->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p> <!--NAME: é mais ultil para PHP | ID: é mais ultil para JavaScript-->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
